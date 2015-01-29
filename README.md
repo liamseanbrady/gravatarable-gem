@@ -20,4 +20,4 @@ end
 <img src="#{@user.gravatar_url}">
 ```
 
-- **Don't worry** if the value in the **email column changes**. Gravatar will **change the url** along with it. However, **Gravatar is super lazy**. It only changes the url, when the column that contains the email address changes - no matter how many times the other columns are updated. **Awesome!**
+- **Don't worry** if the value in the **email column changes**. Gravatarable will **change the url** along with it. However, **Gravatarable is super lazy**. It only springs into action when the column that contains the email address changes - it doesn't take CPU time when it doesn't need to. **Awesome!**
