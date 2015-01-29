@@ -16,7 +16,7 @@ end
 
 - This **simple method call** will give you a **user's Gravatar image**.
 
-```ruby
+```erb
 <img src="#{@user.gravatar_url}">
 ```
 
