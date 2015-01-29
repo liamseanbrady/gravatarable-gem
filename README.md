@@ -6,7 +6,7 @@
 
 ```ruby
 class User < ActiveRecord::Base
-  ...
+  include Gravatarable
 
   gravatar_column :email_address  # pass in name of column which includes email address
 
